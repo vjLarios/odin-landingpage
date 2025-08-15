@@ -196,6 +196,24 @@ header {
     color: #C8C9D0; /* Footer text color */
 }
 
+/* Fix scroll lateral y logo en móviles */
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 /* Fade-in scroll animation */
 .fade-in-scroll {
     opacity: 0;
