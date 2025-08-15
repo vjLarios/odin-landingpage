@@ -4,54 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revive My Kicks</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <header>
-    <h1>header logo</h1>
-    <nav>
-        <ul>
-            <ol><a href="#">Home</a></ol>
-            <ol><a href="#">Precios y Servicios</a></ol>
-            <ol><a href="#">Contacto</a></ol>
-        </ul>
-    </nav>
+    <div class="logo">
+        <img src="img/logo.jpg" alt="logo de Revive My Kicks">
+    </div>
+    <div class="navigation">
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="#services">Precios y Servicios</a>
+            <a href="#faq">Preguntas Frecuentes</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </div> 
 </header>
 <body>
-    <div class="hero">
-        <h1>Revive My Kicks</h1>
-        <p>En Revive My Kicks nos apasiona devolverle la vida a tus zapatos. Nos dedicamos a la limpieza y cuidado de calzado, asegurando que luzcan impecables y se mantengan en excelente estado. </p>
-        <img src="" alt="Logo de Revive My Kicks" class="logo">
+    <div class="hero fade-in-scroll">
+        <div class="left">
+            <h1>Revive My Kicks</h1>
+            <p>En Revive My Kicks nos apasiona devolverle la vida a tus zapatos. Nos dedicamos a la limpieza y cuidado de calzado, asegurando que luzcan impecables y se mantengan en excelente estado. </p>
+        </div>
+        <div class="right">
+            <img src="img/heroimg.png" alt="img referencia" class="img-hero">
+        </div>
     </div>
-    <div class="services">
+    <div class="services fade-in-scroll" id="services">
         <div class="cleaning">
             <h1>Servicios</h1>
-        <ul>
-            <ol><h3>Limpieza Basica <strong>$120</strong></h3></ol>
+            <h3>Limpieza Basica <strong>$120</strong></h3>
             <p>Exterior, Midsole, Agujetas, Desodorante</p>
-            <ol><h3>Limpieza Premium <strong>$150</strong></h3></ol>
+            <h3>Limpieza Premium <strong>$150</strong></h3>
             <p>Exterior, Interior, Midsole, Suela, Agujetas, Desodorante</p>
             <h5>Entregas 2-3 dias habiles</h5>
-        </ul>
         </div>
         <div class="extras">
         <h1>Extras</h1>
-        <ul>
-            <ol><h3>Servicio Express (dia siguiente) <strong>$50</strong></h3></ol>
-            <ol><h3>Blanqueamiento de Midsole $60</h3></ol>
-            <ol><h3>Repelente Agua y Polvo $50</h3></ol>
-            <h5>Los extras se cobran por par</h5>
-        </ul>
+            <h3>Servicio Express (dia siguiente) <strong>$50</strong></h3>
+            <h3>Blanqueamiento de Midsole <strong>$60</strong></h3>
+            <h3>Repelente Agua y Polvo <strong>$50</strong></h3>
+            <h3>Servicio a Domicilio <strong>$50</strong></h3>
+            <h5>Los extras se cobran por par, excepto servicio a domicilio</h5>
+        </div>
+    </div>
+    <div class="faq fade-in-scroll" id="faq">
+        <h1>Preguntas Frecuentes</h1>
+        <div class="faq-item">
+            <h3>¿Cuál es el tiempo de entrega?</h3>
+            <p>El tiempo de entrega es de 2-3 días hábiles para servicios normales. El servicio express se entrega al día siguiente.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Qué métodos de pago aceptan?</h3>
+            <p>Aceptamos transferencia bancaria y pagos en efectivo.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Cómo es el proceso de limpieza?</h3>
+            <p>Todo el proceso se realiza a mano, utilizando jabones adecuados para el cuidado del calzado, asegurando la mejor atención y resultados para tus zapatos.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Puedo solicitar servicio a domicilio?</h3>
+            <p>Sí, contamos con servicio a domicilio por un costo adicional.</p>
         </div>
     </div>
 
-    <div class="contact">
+    <div class="contact fade-in-scroll" id="contact">
         <h1>Contacto</h1>
         <p>Si tienes alguna pregunta o deseas más información sobre nuestros servicios, no dudes en contactarnos. Estamos aquí para ayudarte a mantener tu calzado en perfecto estado.</p>
-        <p><a href="mailto:revivemykicks23@gmail.com">Enviar Correo </a>
-        <p><a href="tel:+523141034991">WhatsApp</a></p>
+        <div class="redes">
+            <a href="https://www.instagram.com/revivemykicks_/"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/revivemykicks/"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="tel:+523141034991"><img src="img/whatsapp.png" alt="whatsapp"> </a>
+        </div>
     </div>
     
-    <div class="footer">
+    <div class="footer fade-in-scroll">
         <p>© 2025 Revive My Kicks.</p>
     </div>
+<script src="app.js"></script>
 </body>
 </html>
